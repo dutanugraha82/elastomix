@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -18,10 +18,16 @@
     body{
       background: #27282a;
     }
-    
+    #video{
+
+      min-height: 100vh;
+    }
   </style>
   <body>
-<div class="container-fluid" style="background: url('img/DJI_0440.JPG') ; width: 100%; background-size:100% 100%; background-repeat: no-repeat; height:100vh;">
+    <video id="video">
+      <source src="img/DJI_0433_Trim.mp4" type="video/MP4">
+      </video>
+<div class="container-fluid">
     <nav class="container navbar navbar-expand-lg navbar-md-light navbar-dark p-md-3 fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand text-white" href="#">Elastomix</a>
