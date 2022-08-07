@@ -18,20 +18,24 @@
     body{
       background: #27282a;
     }
-    #video{
-
-      min-height: 100vh;
+    .text-home{
+      position: absolute;
+      bottom: 18rem;
+      left: 50px;
     }
   </style>
   <body>
     <!-- Section vid hero start -->
-    <video id="video">
-      <source src="img/DJI_0433_Trim.mp4" type="video/MP4">
-    </video>
+    <div class="video" style="background-image:url('img/ezgif.com-gif-maker.gif') ; height: 80vh; background-repeat: no-repeat; background-size: 100% 100%;">
+      <div class="text-home">
+        <h1 class="display-4 text-white">Hello World</h1>
+        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, laudantium!</p>
+      </div>
+    </div>  
+      
     <!-- Section vid hero end -->
 
     <!-- Section navbar start -->
-    <div class="container-fluid">
       <nav class="container navbar navbar-expand-lg navbar-md-light navbar-dark p-md-3 fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand text-white" href="#">Elastomix</a>
@@ -59,11 +63,10 @@
           </div>
         </div>
       </nav>
-    </div> 
     <!-- Section navbar end -->
 
     <!-- About Start -->
-    <div class="container mx-auto p-3 my-md-4" style="margin-top:3rem;" id="about">
+    <div class="container mx-auto p-3 my-md-3" style="margin-top:3rem;" id="about">
       <h1 data-aos="fade-up" data-aos-duration="1500"  class="text-center text-white py-4 py-md-5 mt-lg-5">About Elastomix</h1>
       <div class="row text-white mx-auto mt-lg-4">
         <div class="col-md-8 mb-4">
@@ -106,7 +109,7 @@
         </h1>
       </div>
       <div data-aos="flip-down" data-aos-duration="2500" class="container my-3">
-        <img src="img/product.jpeg" class="d-block mx-auto rounded-2" style="width: 80vw;" alt="">
+        <img src="img/product.jpeg" class="d-block mx-auto rounded-2" style="width: 100%;" alt="">
       </div>
       <div data-aos="fade-right" data-aos-duration="2000" class="container mx-auto my-5">
         <p class="text-white" style="text-align: justify;">
@@ -117,7 +120,7 @@
         <div class="row">
           <div data-aos="fade-left" data-aos-duration="2000" class="col-md-4">
             <div class="card mx-auto mb-4 mb-md-0" style="width: 18rem;">
-              <img src="img/DJI_0434.JPG" style="padding: 0;" class="card-img-top rounded-top" alt="...">
+              <img src="img/DJI_0434.JPG" class="card-img-top rounded-top" alt="...">
             </div>
           </div>
 
@@ -138,7 +141,7 @@
     <!-- Product End -->
 
     <!-- Section Employes start -->
-    <div class="container mx-auto p-3 my-md-4" style="margin-top:3rem;" id="employe">
+    <div class="container mx-auto p-3 my-md-4" style="margin-top:3rem;" id="employee">
       <div class="p-4">
         <h1 data-aos="fade-up" data-aos-duration="1500" class="text-center text-white">
           Employes
